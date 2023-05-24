@@ -10,7 +10,7 @@ from geometry_msgs.msg import Point,PoseStamped
 import os
 import math
 
-path = '/home/impact4impact/Desktop/drone_ros1/src/Images'
+path = './src/images'
 
 class image_converter:
   def __init__(self):

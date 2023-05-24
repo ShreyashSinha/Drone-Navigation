@@ -158,7 +158,7 @@ int main(int argc, char **argv){
 
     cout<<"Reading Corner Points\n";
 
-    inFile.open("/home/impact4impact/Desktop/drone_ros1/src/g_planner/in5.txt");
+    inFile.open("./src/g_planner/points-uncons.txt");
     if (!inFile) {
         cout << "Unable to open file\n";
         exit(1); // terminate with error
