@@ -1,0 +1,42 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/impact4impact/Desktop/drone_ros1/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/impact4impact/ws_sensor_combined/install/px4_ros_com/include/**",
+        "/home/impact4impact/ws_sensor_combined/install/px4_msgs/include/**",
+        "/home/impact4impact/Desktop/drone_ros1/src/action_client_server/include/**",
+        "/home/impact4impact/Desktop/drone_ros1/src/avoidance/avoidance/include/**",
+        "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/bspline_opt/include/**",
+        "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/plan_manage/include/**",
+        "/home/impact4impact/Desktop/drone_ros1/src/g_planner/include/**",
+        "/home/impact4impact/Desktop/drone_ros1/src/avoidance/global_planner/include/**",
+        "/home/impact4impact/Desktop/drone_ros1/src/iris_pacakage/iris_src/include/**",
+        "/home/impact4impact/Desktop/drone_ros1/src/avoidance/local_planner/include/**",
+        "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/mockamap/include/**",
+        "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/multi_map_server/include/**",
+        "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/path_searching/include/**",
+        "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/plan_env/include/**",
+        "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/pose_utils/include/**",
+        "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/quadrotor_msgs/include/**",
+        "/home/impact4impact/Desktop/drone_ros1/src/avoidance/safe_landing_planner/include/**",
+        "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/so3_control/include/**",
+        "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/so3_quadrotor_simulator/include/**",
+        "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/traj_utils/include/**",
+        "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/uav_utils/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
