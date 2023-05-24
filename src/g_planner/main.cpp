@@ -158,7 +158,7 @@ int main(int argc, char **argv){
 
     cout<<"Reading Corner Points\n";
 
-    inFile.open("./src/g_planner/points-uncons.txt");
+    inFile.open("./src/g_planner/points-cons.txt");
     if (!inFile) {
         cout << "Unable to open file\n";
         exit(1); // terminate with error
@@ -249,6 +249,8 @@ int main(int argc, char **argv){
     //     cout<<lawnmow_waypoints[i].size()<<endl;
     //     cout<<camera_waypoints[i].size()<<endl;
     // }
+
+    // display(lawnmow_waypoints[0]);
     publish();
 
     geometry_msgs::Point point;
@@ -257,7 +259,6 @@ int main(int argc, char **argv){
         point.y = camera_waypoints[surface_index][j][1];
         point.z = camera_waypoints[surface_index][j][2];
         path.camera_points.camera_waypoints.push_back(point);
-        // my_array[j] = point;
     }
     surface_index++;
     camera_pub.publish(path.camera_points);

@@ -146,7 +146,7 @@ class Server:
 
         distance = math.sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2 + (z1 - z2) ** 2)
         # rospy.loginfo(distance)
-        if distance <= 1.0:
+        if distance <= 3.0:
             return True
         else:
             return False
@@ -417,8 +417,8 @@ class Server:
                 if(rospy.is_shutdown()):
                     break
                 # rospy.loginfo("Publishing SetPoints")
-                self.setpoint_pub.publish(pose)
-                # self.local_p.publish(pose)
+                # self.setpoint_pub.publish(pose)
+                self.local_p.publish(pose)
 
                 rate.sleep()
             l+=1

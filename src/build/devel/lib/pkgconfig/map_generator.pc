@@ -1,0 +1,8 @@
+prefix=/home/impact4impact/Desktop/drone_ros1/src/build/devel
+
+Name: map_generator
+Description: Description of map_generator
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

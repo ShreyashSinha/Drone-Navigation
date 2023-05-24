@@ -1,0 +1,2 @@
+set(multi_map_server_MESSAGE_FILES "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/multi_map_server/msg/MultiOccupancyGrid.msg;/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/multi_map_server/msg/MultiSparseMap3D.msg;/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/multi_map_server/msg/SparseMap3D.msg;/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/multi_map_server/msg/VerticalOccupancyGridList.msg")
+set(multi_map_server_SERVICE_FILES "")

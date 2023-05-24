@@ -1,0 +1,307 @@
+[
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -isystem /usr/src/googletest/googlemock/include -isystem /usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o gtest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o gtest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"quadrotor_msgs\\\" -Dencode_msgs_EXPORTS -Idevel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../ego-planner/src/uav_simulator/Utils/quadrotor_msgs/include -I/usr/include/eigen3  -g -fPIC   -o ego-planner/src/uav_simulator/Utils/quadrotor_msgs/CMakeFiles/encode_msgs.dir/src/encode_msgs.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/quadrotor_msgs/src/encode_msgs.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/quadrotor_msgs/src/encode_msgs.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"quadrotor_msgs\\\" -Ddecode_msgs_EXPORTS -Idevel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../ego-planner/src/uav_simulator/Utils/quadrotor_msgs/include -I/usr/include/eigen3  -g -fPIC   -o ego-planner/src/uav_simulator/Utils/quadrotor_msgs/CMakeFiles/decode_msgs.dir/src/decode_msgs.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/quadrotor_msgs/src/decode_msgs.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/quadrotor_msgs/src/decode_msgs.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"map_generator\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -Wall -g   -std=c++11 -std=c++14 -o ego-planner/src/uav_simulator/map_generator/CMakeFiles/random_forest.dir/src/random_forest_sensing.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/map_generator/src/random_forest_sensing.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/map_generator/src/random_forest_sensing.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plan_env\\\" -Dplan_env_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem ../ego-planner/src/planner/plan_env/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -Wall -g -fPIC   -std=c++11 -std=c++14 -o ego-planner/src/planner/plan_env/CMakeFiles/plan_env.dir/src/grid_map.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/plan_env/src/grid_map.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/plan_env/src/grid_map.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plan_env\\\" -Dplan_env_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem ../ego-planner/src/planner/plan_env/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -Wall -g -fPIC   -std=c++11 -std=c++14 -o ego-planner/src/planner/plan_env/CMakeFiles/plan_env.dir/src/raycast.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/plan_env/src/raycast.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/plan_env/src/raycast.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"path_searching\\\" -Dpath_searching_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem ../ego-planner/src/planner/path_searching/include -isystem ../ego-planner/src/planner/plan_env/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -Wall -g -fPIC   -std=c++11 -std=c++14 -o ego-planner/src/planner/path_searching/CMakeFiles/path_searching.dir/src/dyn_a_star.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/path_searching/src/dyn_a_star.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/path_searching/src/dyn_a_star.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"bspline_opt\\\" -Dbspline_opt_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem ../ego-planner/src/planner/bspline_opt/include -isystem ../ego-planner/src/planner/plan_env/include -isystem ../ego-planner/src/planner/path_searching/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -Wall -g -fPIC   -std=c++11 -std=c++14 -o ego-planner/src/planner/bspline_opt/CMakeFiles/bspline_opt.dir/src/uniform_bspline.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/bspline_opt/src/uniform_bspline.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/bspline_opt/src/uniform_bspline.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"bspline_opt\\\" -Dbspline_opt_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem ../ego-planner/src/planner/bspline_opt/include -isystem ../ego-planner/src/planner/plan_env/include -isystem ../ego-planner/src/planner/path_searching/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -Wall -g -fPIC   -std=c++11 -std=c++14 -o ego-planner/src/planner/bspline_opt/CMakeFiles/bspline_opt.dir/src/bspline_optimizer.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/bspline_opt/src/bspline_optimizer.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/bspline_opt/src/bspline_optimizer.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"bspline_opt\\\" -Dbspline_opt_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem ../ego-planner/src/planner/bspline_opt/include -isystem ../ego-planner/src/planner/plan_env/include -isystem ../ego-planner/src/planner/path_searching/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -Wall -g -fPIC   -std=c++11 -std=c++14 -o ego-planner/src/planner/bspline_opt/CMakeFiles/bspline_opt.dir/src/gradient_descent_optimizer.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/bspline_opt/src/gradient_descent_optimizer.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/bspline_opt/src/gradient_descent_optimizer.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"pose_utils\\\" -Dpose_utils_EXPORTS -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I../ego-planner/src/uav_simulator/Utils/pose_utils/include  -g -fPIC   -o ego-planner/src/uav_simulator/Utils/pose_utils/CMakeFiles/pose_utils.dir/src/pose_utils.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"g_planner\\\" -Idevel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o g_planner/CMakeFiles/preliminary_mapper.dir/preliminary.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/g_planner/preliminary.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/g_planner/preliminary.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"g_planner\\\" -Idevel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o g_planner/CMakeFiles/preliminary_mapper.dir/lawnmow.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/g_planner/lawnmow.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/g_planner/lawnmow.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"g_planner\\\" -Idevel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o g_planner/CMakeFiles/preliminary_mapper.dir/calibration.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/g_planner/calibration.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/g_planner/calibration.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"g_planner\\\" -Idevel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o g_planner/CMakeFiles/point_publisher.dir/main.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/g_planner/main.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/g_planner/main.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"g_planner\\\" -Idevel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o g_planner/CMakeFiles/point_publisher.dir/lawnmow.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/g_planner/lawnmow.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/g_planner/lawnmow.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"g_planner\\\" -Idevel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o g_planner/CMakeFiles/point_publisher.dir/calibration.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/g_planner/calibration.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/g_planner/calibration.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"g_planner\\\" -Idevel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o g_planner/CMakeFiles/point_publisher.dir/corner_points.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/g_planner/corner_points.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/g_planner/corner_points.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"g_planner\\\" -Idevel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o g_planner/CMakeFiles/transform.dir/transform.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/g_planner/transform.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/g_planner/transform.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"odom_visualization\\\" -I../ego-planner/src/uav_simulator/Utils/odom_visualization/include -Idevel/include -I../ego-planner/src/uav_simulator/Utils/pose_utils/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O3 -Wall -g -O3 -DNDEBUG   -o ego-planner/src/uav_simulator/Utils/odom_visualization/CMakeFiles/odom_visualization.dir/src/odom_visualization.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/odom_visualization/src/odom_visualization.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/odom_visualization/src/odom_visualization.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"local_sensing_node\\\" -isystem devel/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem ../ego-planner/src/uav_simulator/local_sensing/.  -O3 -DNDEBUG   -std=c++11 -std=c++14 -o ego-planner/src/uav_simulator/local_sensing/CMakeFiles/pcl_render_node.dir/src/pointcloud_render_node.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/local_sensing/src/pointcloud_render_node.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/local_sensing/src/pointcloud_render_node.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mockamap\\\" -I../ego-planner/src/uav_simulator/mockamap/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.10 -I/usr/include/vtk-7.1 -I/usr/include/freetype2  -O3 -Wall -g   -std=c++11 -std=c++14 -o ego-planner/src/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/ces_randommap.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/mockamap/src/ces_randommap.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/mockamap/src/ces_randommap.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mockamap\\\" -I../ego-planner/src/uav_simulator/mockamap/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.10 -I/usr/include/vtk-7.1 -I/usr/include/freetype2  -O3 -Wall -g   -std=c++11 -std=c++14 -o ego-planner/src/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/maps.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/mockamap/src/maps.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/mockamap/src/maps.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mockamap\\\" -I../ego-planner/src/uav_simulator/mockamap/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.10 -I/usr/include/vtk-7.1 -I/usr/include/freetype2  -O3 -Wall -g   -std=c++11 -std=c++14 -o ego-planner/src/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/mockamap.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/mockamap/src/mockamap.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/mockamap/src/mockamap.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mockamap\\\" -I../ego-planner/src/uav_simulator/mockamap/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.10 -I/usr/include/vtk-7.1 -I/usr/include/freetype2  -O3 -Wall -g   -std=c++11 -std=c++14 -o ego-planner/src/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/perlinnoise.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/mockamap/src/perlinnoise.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/mockamap/src/perlinnoise.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"so3_control\\\" -I/usr/include/eigen3 -I../ego-planner/src/uav_simulator/so3_control/include -Idevel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -std=c++11 -O3 -Wall -g   -o ego-planner/src/uav_simulator/so3_control/CMakeFiles/control_example.dir/src/control_example.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/so3_control/src/control_example.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/so3_control/src/control_example.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"so3_control\\\" -Dso3_control_nodelet_EXPORTS -I/usr/include/eigen3 -I../ego-planner/src/uav_simulator/so3_control/include -Idevel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -std=c++11 -O3 -Wall -g -fPIC   -o ego-planner/src/uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/src/so3_control_nodelet.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/so3_control/src/so3_control_nodelet.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/so3_control/src/so3_control_nodelet.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"so3_control\\\" -DSO3Control_EXPORTS -I/usr/include/eigen3 -I../ego-planner/src/uav_simulator/so3_control/include -Idevel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -std=c++11 -O3 -Wall -g -fPIC   -o ego-planner/src/uav_simulator/so3_control/CMakeFiles/SO3Control.dir/src/SO3Control.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/so3_control/src/SO3Control.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/so3_control/src/SO3Control.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"multi_map_server\\\" -Idevel/include -I../ego-planner/src/uav_simulator/Utils/multi_map_server/include -I../ego-planner/src/uav_simulator/Utils/pose_utils/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -std=c++11 -O3 -Wall -g   -o ego-planner/src/uav_simulator/Utils/multi_map_server/CMakeFiles/multi_map_visualization.dir/src/multi_map_visualization.cc.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/multi_map_server/src/multi_map_visualization.cc",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/multi_map_server/src/multi_map_visualization.cc"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"traj_utils\\\" -Dqh_QHpointer -Dtraj_utils_EXPORTS -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem ../ego-planner/src/planner/traj_utils/include -isystem ../ego-planner/src/planner/bspline_opt/include -isystem ../ego-planner/src/planner/plan_env/include -isystem ../ego-planner/src/planner/path_searching/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2  -std=c++11  -O3 -Wall -g -fPIC   -o ego-planner/src/planner/traj_utils/CMakeFiles/traj_utils.dir/src/planning_visualization.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/traj_utils/src/planning_visualization.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/traj_utils/src/planning_visualization.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"traj_utils\\\" -Dqh_QHpointer -Dtraj_utils_EXPORTS -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem ../ego-planner/src/planner/traj_utils/include -isystem ../ego-planner/src/planner/bspline_opt/include -isystem ../ego-planner/src/planner/plan_env/include -isystem ../ego-planner/src/planner/path_searching/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2  -std=c++11  -O3 -Wall -g -fPIC   -o ego-planner/src/planner/traj_utils/CMakeFiles/traj_utils.dir/src/polynomial_traj.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/traj_utils/src/polynomial_traj.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/traj_utils/src/polynomial_traj.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ego_planner\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem devel/include -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem ../ego-planner/src/planner/plan_manage/include -isystem ../ego-planner/src/planner/plan_env/include -isystem ../ego-planner/src/planner/path_searching/include -isystem ../ego-planner/src/planner/bspline_opt/include -isystem ../ego-planner/src/planner/traj_utils/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -Wall -g   -std=c++11 -std=c++14 -o ego-planner/src/planner/plan_manage/CMakeFiles/ego_planner_node.dir/src/ego_planner_node.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/plan_manage/src/ego_planner_node.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/plan_manage/src/ego_planner_node.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ego_planner\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem devel/include -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem ../ego-planner/src/planner/plan_manage/include -isystem ../ego-planner/src/planner/plan_env/include -isystem ../ego-planner/src/planner/path_searching/include -isystem ../ego-planner/src/planner/bspline_opt/include -isystem ../ego-planner/src/planner/traj_utils/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -Wall -g   -std=c++11 -std=c++14 -o ego-planner/src/planner/plan_manage/CMakeFiles/ego_planner_node.dir/src/ego_replan_fsm.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/plan_manage/src/ego_replan_fsm.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/plan_manage/src/ego_replan_fsm.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ego_planner\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem devel/include -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem ../ego-planner/src/planner/plan_manage/include -isystem ../ego-planner/src/planner/plan_env/include -isystem ../ego-planner/src/planner/path_searching/include -isystem ../ego-planner/src/planner/bspline_opt/include -isystem ../ego-planner/src/planner/traj_utils/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -Wall -g   -std=c++11 -std=c++14 -o ego-planner/src/planner/plan_manage/CMakeFiles/ego_planner_node.dir/src/planner_manager.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/plan_manage/src/planner_manager.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/plan_manage/src/planner_manager.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ego_planner\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem devel/include -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem ../ego-planner/src/planner/plan_manage/include -isystem ../ego-planner/src/planner/plan_env/include -isystem ../ego-planner/src/planner/path_searching/include -isystem ../ego-planner/src/planner/bspline_opt/include -isystem ../ego-planner/src/planner/traj_utils/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -Wall -g   -std=c++11 -std=c++14 -o ego-planner/src/planner/plan_manage/CMakeFiles/traj_server.dir/src/traj_server.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/plan_manage/src/traj_server.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/planner/plan_manage/src/traj_server.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"uav_utils\\\" -I../ego-planner/src/uav_simulator/Utils/uav_utils/include -I/usr/include/eigen3 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest   -std=c++11 -Wall -O3 -g -g   -DGTEST_HAS_PTHREAD=1 -o ego-planner/src/uav_simulator/Utils/uav_utils/CMakeFiles/uav_utils-test.dir/src/uav_utils_test.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/uav_utils/src/uav_utils_test.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/uav_utils/src/uav_utils_test.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"so3_quadrotor_simulator\\\" -I/usr/include/eigen3 -I../ego-planner/src/uav_simulator/so3_quadrotor_simulator/include/ode -I../ego-planner/src/uav_simulator/so3_quadrotor_simulator/include -Idevel/include -I../ego-planner/src/uav_simulator/Utils/uav_utils/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -std=c++11 -O3 -Wall -g   -std=c++11 -o ego-planner/src/uav_simulator/so3_quadrotor_simulator/CMakeFiles/quadrotor_simulator_so3.dir/src/quadrotor_simulator_so3.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/so3_quadrotor_simulator/src/quadrotor_simulator_so3.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/so3_quadrotor_simulator/src/quadrotor_simulator_so3.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"so3_quadrotor_simulator\\\" -Dquadrotor_dynamics_EXPORTS -I/usr/include/eigen3 -I../ego-planner/src/uav_simulator/so3_quadrotor_simulator/include/ode -I../ego-planner/src/uav_simulator/so3_quadrotor_simulator/include -Idevel/include -I../ego-planner/src/uav_simulator/Utils/uav_utils/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -std=c++11 -O3 -Wall -g -fPIC   -std=c++11 -o ego-planner/src/uav_simulator/so3_quadrotor_simulator/CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/so3_quadrotor_simulator/src/dynamics/Quadrotor.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/so3_quadrotor_simulator/src/dynamics/Quadrotor.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rviz_plugins\\\" -Drviz_plugins_EXPORTS -I../ego-planner/src/uav_simulator/Utils/rviz_plugins/include -Idevel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g -fPIC   -std=c++11 -fPIC -o ego-planner/src/uav_simulator/Utils/rviz_plugins/CMakeFiles/rviz_plugins.dir/src/pose_tool.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/pose_tool.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/pose_tool.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rviz_plugins\\\" -Drviz_plugins_EXPORTS -I../ego-planner/src/uav_simulator/Utils/rviz_plugins/include -Idevel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g -fPIC   -std=c++11 -fPIC -o ego-planner/src/uav_simulator/Utils/rviz_plugins/CMakeFiles/rviz_plugins.dir/src/goal_tool.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/goal_tool.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/goal_tool.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rviz_plugins\\\" -Drviz_plugins_EXPORTS -I../ego-planner/src/uav_simulator/Utils/rviz_plugins/include -Idevel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g -fPIC   -std=c++11 -fPIC -o ego-planner/src/uav_simulator/Utils/rviz_plugins/CMakeFiles/rviz_plugins.dir/src/probmap_display.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/probmap_display.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/probmap_display.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rviz_plugins\\\" -Drviz_plugins_EXPORTS -I../ego-planner/src/uav_simulator/Utils/rviz_plugins/include -Idevel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g -fPIC   -std=c++11 -fPIC -o ego-planner/src/uav_simulator/Utils/rviz_plugins/CMakeFiles/rviz_plugins.dir/src/aerialmap_display.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/aerialmap_display.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/aerialmap_display.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rviz_plugins\\\" -Drviz_plugins_EXPORTS -I../ego-planner/src/uav_simulator/Utils/rviz_plugins/include -Idevel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g -fPIC   -std=c++11 -fPIC -o ego-planner/src/uav_simulator/Utils/rviz_plugins/CMakeFiles/rviz_plugins.dir/src/multi_probmap_display.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/multi_probmap_display.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/multi_probmap_display.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rviz_plugins\\\" -Drviz_plugins_EXPORTS -I../ego-planner/src/uav_simulator/Utils/rviz_plugins/include -Idevel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g -fPIC   -std=c++11 -fPIC -o ego-planner/src/uav_simulator/Utils/rviz_plugins/CMakeFiles/rviz_plugins.dir/src/moc_goal_tool.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/build/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/moc_goal_tool.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/build/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/moc_goal_tool.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rviz_plugins\\\" -Drviz_plugins_EXPORTS -I../ego-planner/src/uav_simulator/Utils/rviz_plugins/include -Idevel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g -fPIC   -std=c++11 -fPIC -o ego-planner/src/uav_simulator/Utils/rviz_plugins/CMakeFiles/rviz_plugins.dir/src/moc_probmap_display.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/build/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/moc_probmap_display.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/build/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/moc_probmap_display.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rviz_plugins\\\" -Drviz_plugins_EXPORTS -I../ego-planner/src/uav_simulator/Utils/rviz_plugins/include -Idevel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g -fPIC   -std=c++11 -fPIC -o ego-planner/src/uav_simulator/Utils/rviz_plugins/CMakeFiles/rviz_plugins.dir/src/moc_aerialmap_display.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/build/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/moc_aerialmap_display.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/build/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/moc_aerialmap_display.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rviz_plugins\\\" -Drviz_plugins_EXPORTS -I../ego-planner/src/uav_simulator/Utils/rviz_plugins/include -Idevel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g -fPIC   -std=c++11 -fPIC -o ego-planner/src/uav_simulator/Utils/rviz_plugins/CMakeFiles/rviz_plugins.dir/src/moc_multi_probmap_display.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/build/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/moc_multi_probmap_display.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/build/ego-planner/src/uav_simulator/Utils/rviz_plugins/src/moc_multi_probmap_display.cpp"
+},
+
+{
+  "directory": "/home/impact4impact/Desktop/drone_ros1/src/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waypoint_generator\\\" -I../ego-planner/src/uav_simulator/Utils/waypoint_generator/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp   -std=c++11 -Wall -O3 -march=native -g   -o ego-planner/src/uav_simulator/Utils/waypoint_generator/CMakeFiles/waypoint_generator.dir/src/waypoint_generator.cpp.o -c /home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/waypoint_generator/src/waypoint_generator.cpp",
+  "file": "/home/impact4impact/Desktop/drone_ros1/src/ego-planner/src/uav_simulator/Utils/waypoint_generator/src/waypoint_generator.cpp"
+}
+]

@@ -80,7 +80,7 @@ def takeoff_client():
     client.wait_for_server()
     rate=rospy.Rate(1)
     goal = TakeoffGoal()
-    goal.altitude = 14.0   # Set goal altitude to 5 meters
+    goal.altitude = 2.0   # Set goal altitude to 5 meters
 
     client.send_goal(goal,feedback_cb=feedback_callback_action1)
 

@@ -1,0 +1,8 @@
+prefix=/home/impact4impact/Desktop/drone_ros1/src/build/devel
+
+Name: odom_visualization
+Description: Description of odom_visualization
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
